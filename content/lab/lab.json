@@ -1,0 +1,61 @@
+[
+  {
+    "id": "todo-api",
+    "url": "https://github.com/fernandoadms/todo-api",
+    "repo": "https://github.com/fernandoadms/todo-api",
+    "year": "2026",
+    "title": "todo-api",
+    "description": {
+      "pt": "API de tarefas em TypeScript, meu laboratório de backend para praticar arquitetura, testes e boas práticas de API",
+      "en": "A TypeScript task API, my backend lab to practice architecture, testing and API best practices"
+    },
+    "short": { "pt": "API de tarefas em TypeScript", "en": "A TypeScript task API" }
+  },
+  {
+    "id": "clone-tabnews",
+    "url": "https://clone-tabnews-omega-six.vercel.app",
+    "repo": "https://github.com/fernandoadms/clone-tabnews",
+    "year": "2024",
+    "title": "clone-tabnews",
+    "description": {
+      "pt": "Projeto de estudo construído do zero com Next.js, banco de dados, migrations e CI, publicado na Vercel",
+      "en": "A study project built from scratch with Next.js, a database, migrations and CI, deployed on Vercel"
+    },
+    "short": { "pt": "Next.js do zero, com banco e CI", "en": "Next.js from scratch, with a database and CI" }
+  },
+  {
+    "id": "amigo-secreto",
+    "url": "https://amigo-secreto-one-self.vercel.app",
+    "repo": "https://github.com/fernandoadms/amigo-secreto",
+    "year": "2025",
+    "title": "Amigo Secreto",
+    "description": {
+      "pt": "App em TypeScript para sortear o amigo secreto da turma, sem papelzinho",
+      "en": "A TypeScript app to draw names for a Secret Santa, no slips of paper needed"
+    },
+    "short": { "pt": "Sorteio de amigo secreto", "en": "Secret Santa name draw" }
+  },
+  {
+    "id": "lottery-results",
+    "url": "https://github.com/fernandoadms/lottery-results",
+    "repo": "https://github.com/fernandoadms/lottery-results",
+    "year": "2023",
+    "title": "Lottery Results",
+    "description": {
+      "pt": "Resultados das loterias da Caixa: Mega-Sena, Quina, Lotofácil, Lotomania, Timemania e Dia de Sorte",
+      "en": "Results for Brazilian lotteries: Mega-Sena, Quina, Lotofácil, Lotomania, Timemania and Dia de Sorte"
+    },
+    "short": { "pt": "Resultados das loterias da Caixa", "en": "Brazilian lottery results" }
+  },
+  {
+    "id": "decimal-to-binary-converter",
+    "url": "https://github.com/fernandoadms/decimal-to-binary-converter",
+    "repo": "https://github.com/fernandoadms/decimal-to-binary-converter",
+    "year": "2026",
+    "title": "Decimal to Binary",
+    "description": {
+      "pt": "API simples para converter números decimais em binário",
+      "en": "A simple API to convert decimal numbers to binary"
+    }
+  }
+]

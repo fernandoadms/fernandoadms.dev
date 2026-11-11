@@ -1,0 +1,82 @@
+{
+  "name": "fernandoadms.dev",
+  "version": "0.0.0-development",
+  "private": true,
+  "type": "module",
+  "description": "My personal website and blog",
+  "homepage": "https://github.com/fernandoadms/fernandoadms.dev#readme",
+  "bugs": {
+    "url": "https://github.com/fernandoadms/fernandoadms.dev/issues"
+  },
+  "author": {
+    "name": "Fernando Alves",
+    "email": "fernando.alves0189@gmail.com",
+    "url": "https://fernandoadms.dev"
+  },
+  "packageManager": "pnpm@12.6.0",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && pagefind --site dist",
+    "preview": "astro preview",
+    "check": "astro check",
+    "test": "vitest run && TZ=Asia/Tokyo vitest run src/lib",
+    "test:e2e": "playwright test",
+    "lint": "eslint . && stylelint \"src/**/*.{css,astro}\"",
+    "lint:fix": "eslint . --fix && stylelint \"src/**/*.{css,astro}\" --fix",
+    "prepare": "husky",
+    "release": "semantic-release",
+    "commitlint": "commitlint"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.19",
+    "@astrojs/sitemap": "^3.7.4",
+    "astro": "^7.4.7",
+    "image-size": "^2.1.0",
+    "reading-time": "^1.5.0",
+    "satori": "^0.63.2",
+    "satori-html": "^0.3.2",
+    "sharp": "^0.35.5"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.12",
+    "@astrojs/markdown-satteri": "^0.4.7",
+    "@commitlint/cli": "^21.2.4",
+    "@commitlint/config-conventional": "^21.2.4",
+    "@eslint/js": "^10.0.1",
+    "@fontsource-variable/geist": "^5.3.0",
+    "@fontsource-variable/geist-mono": "^5.3.0",
+    "@fontsource/geist": "^5.3.0",
+    "@fontsource/geist-mono": "^5.3.0",
+    "@playwright/test": "^1.65.0",
+    "@semantic-release/changelog": "^7.0.0",
+    "@semantic-release/git": "^11.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "@tabler/icons": "^3.51.0",
+    "@types/hast": "^3.0.5",
+    "@types/node": "^26.6.6",
+    "conventional-changelog-conventionalcommits": "^10.4.1",
+    "cookie": "2.0.1",
+    "eslint": "^10.14.0",
+    "eslint-plugin-astro": "^3.2.1",
+    "globals": "^17.14.0",
+    "happy-dom": "^21.0.4",
+    "husky": "^9.1.7",
+    "pagefind": "^1.6.0",
+    "postcss-html": "^2.0.0",
+    "satteri": "^0.11.7",
+    "semantic-release": "^25.0.9",
+    "stylelint": "^18.0.0",
+    "stylelint-config-html": "^2.0.0",
+    "stylelint-config-standard": "^41.0.0",
+    "typescript": "~6.0.3",
+    "typescript-eslint": "^8.72.1",
+    "vitest": "^5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandoadms/fernandoadms.dev.git"
+  }
+}
