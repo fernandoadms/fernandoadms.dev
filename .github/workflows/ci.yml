@@ -57,7 +57,8 @@ jobs:
       - run: pnpm build
         env:
           PUBLIC_GA_ID: ${{ vars.PUBLIC_GA_ID }}
-      - run: pnpm exec playwright install --with-deps chromium
+      # e2e run on the runner's preinstalled Google Chrome (see playwright.config.ts)
+      - run: google-chrome --version
       - name: Start the preview server
         run: |
           pnpm astro preview --background --port 4321
